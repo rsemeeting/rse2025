@@ -1,6 +1,6 @@
 # RSE'22
 
-This is the `RSE'22 Meeting Webpage`.
+This is the `RSE'22 Meeting webpage`.
 
 It was developed using the template available at [Mike Pierce GitHub](https://github.com/mikepierce/conference-website-template).
 
