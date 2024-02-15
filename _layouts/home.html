@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang='en'>
+  {% include head.html %}
+    
+<body>
+    <header>
+      {% include nav.html %}
+    </header>
+
+
+    <main>
+      {% include banner.html %}
+
+
+      <div class="container">
+    {{ content }}
+
+    <!-- <h2>Organizers</h2>
+    <p>
+       RSE'24 is being co-chaired by <b>Nico Hochgeschwender</b> (University of Bremen) and <b>Luciana Rebelo</b> (Gran Sasso Science Institute). 
+    </p> -->
+
+
+    <!-- <h2>Steering Committee</h2>
+        The Steering Committee of RSE include  <b>Thorsten Berger</b> (Ruhr University Bochum), <b>Patrizio Pelliccione</b> (Gran Sasso Science Institute), and <b>Davide Brugali</b> (University of Bergamo). -->
+         <!--The organizers are grateful for support from the following sponsors:-->
+
+    <!--<h2>Sponsor</h2>-->
+    
+     <!--<table class="sponsors">
+        <tr>
+            <td class="sponsor">
+                <a href="http://www.gssi.it/">
+                    <img src="assets/logo-gssi.png" alt="GSSI" style="width: 50%">
+                </a>
+            </td>
+           <td class="sponsor">
+                <a href="https://www.univaq.it/">
+                    <img src="assets/UnivaqLogo.png" alt="Second Sponsor Name" style="width: 80%">
+                </a>
+            </td>
+            <td class="sponsor">
+                <a href="http://www.eyebleach.me/">
+                    <img src="assets/kitten3.jpg" alt="Third Sponsor Name">
+                </a>
+            </td>
+        </tr>
+    </table>-->
+    
+    </main>
+</div>
+    {% include organizers.html %} 
+    {% include footer.html %}
+    {% include js.html %}
+
+ 
+</body>
+</html>
+

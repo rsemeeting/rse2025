@@ -1,0 +1,41 @@
+# Site settings
+title: RSE'24
+
+url: http://rsemeeting.github.io/
+baseurl: '/rse2024/'
+
+conference_title: "Robotics Software Engineering"
+conference_title_short: "RSE"
+year: "2024"
+dates: September X-Y
+venue: University of Bremen, Germany
+copyright: Conference Organizers
+
+# Color settings
+color:
+  primary-dark: '#9d2246'
+  title: '#ebf0f4'
+  links: '#0068b4'
+  accent: '#d50c2f'
+
+# conference data
+background-image: /assets/bremen.jpg
+directions-link: https://www.uni-bremen.de/en/university/campus/getting-here
+map-embed: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2395.203344874463!2d8.852755676572071!3d53.10654117222068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b1263280d9dfe9%3A0x45f1dbea1068be04!2sUniversity%20of%20Bremen!5e0!3m2!1sen!2sde!4v1707949280845!5m2!1sen!2sde
+organizer-email : rsemeeting@gmail.com
+# registration-page : http://registration.com
+# upload-form: http://paperupload.com
+
+collections:
+  # - invited_speakers
+  - organizers
+  - sessions
+  # - papers
+  - advisors
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+sass:
+  style: compact # possible values: nested expanded compact compressed
