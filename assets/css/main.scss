@@ -17,13 +17,38 @@
   margin: auto;
   overflow: auto;
   background-image: url({{site.background-image | prepend: site.baseurl}});
+  data-isc-source-text: "(c) University of Bremen";
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: right bottom;
   width: 100%;
   /*position: relative;*/
   top: 0;
   left: 0;
+}
+
+.banner img {
+  // max-width:100%;
+  margin: auto;
+  overflow: auto;
+  height: 500px;
+  width: 100%;
+  object-position: right bottom;
+  object-fit: cover;
+  // object-repeat: no-repeat;
+  top: 0;
+  left: 0;
+
+}
+
+.banner figcaption {
+  color: #fff;
+  font-size: 0.75em;
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+  // padding: 0px 27px 27px 0px;
+  text-align: right;
 }
 
 #main-title{
@@ -43,6 +68,7 @@
   text-align:center;
   font-weight:bold;
   color:{{site.color.title}};
+  text-shadow: 0px 0px 6px #000000;
 }
 
 
@@ -59,4 +85,5 @@
   text-align:center;
   font-weight:bold;
   color: {{site.color.title}};
+  text-shadow: 0px 0px 6px #000000;
 }
