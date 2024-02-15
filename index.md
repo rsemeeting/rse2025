@@ -21,7 +21,6 @@ In this edition, we plan for xxxx and a half days event, from Monday noon to Thu
 
 RSE'24 will take place at the [University of Bremen](https://www.uni-bremen.de/en/) located in Bibliothekstraße 1, 28359 Bremen, Germany, from September x until September y, 2024.
 
-For more information contact: [rsemeeting@gmail.com](mailto:rsemeeting@gmail.com).   
 
 ## Previous Editions
 
