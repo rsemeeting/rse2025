@@ -31,7 +31,7 @@ The venue is conveniently located in central london; some of the closest tube (u
 ## Accomodation
 
 Hotels near the university:
-- [7 things](https://www.7things.de/hotel-bremen/), starting at 178€ double/queen room, approx. 5min walking from the university.
+- [7 things](https://www.7things.de/hotel-bremen/), starting at 89€ double/queen room, approx. 5min walking from the university.
 
 You can also choose a hotel near the city centre. The meeting venue is easily reachable with the tram line 6 in ca. 20min.
 Some hotels include:
