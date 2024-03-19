@@ -1,5 +1,6 @@
 # Site settings
 title: RSE'24
+description: The 2024 Robotics Software Engineering (RSE24) meeting will be held in the University of Bremen, Germany from September 2nd to September 5th.
 
 url: http://rsemeeting.github.io/
 baseurl: '/rse2024/'
