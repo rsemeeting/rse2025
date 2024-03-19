@@ -1,13 +1,4 @@
 time,name,title,abstract,speaker,affiliation
-8:00,checkin,Check-In,,,
-9:00,keynote1, Keynote: Super awesome title, lorem ipsum etc, Isaac Asimov, Uni of Sci Fi
-10:00,coffe1, Coffee Break, , ,
-10:30,session1, Session 1, , ,
-11:45,discussion1, Discussion, , ,
-12:00,lunch, Lunch, , ,
-13:30,session2, Session 2, , ,
-14:45,discussion2, Discussion, , ,
-15:00,coffe1, Coffee Break, , ,
-15:30,session3, Session 3, , ,
-16:45,discussion3, Discussion, , ,
-17:00,social-event, Social Event, , ,
+11:00,checkin,Check-In,,,
+12:00,session1, Sessions and Discussions, , ,
+16:45,discussion3, Round table and final discussion, , ,

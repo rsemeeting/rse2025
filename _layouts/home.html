@@ -13,16 +13,64 @@
 
 
       <div class="container">
-    {{ content }}
+        <h2>About {{site.title}} </h2>
+        <div class="row">
 
-    <!-- <h2>Organizers</h2>
-    <p>
-       RSE'24 is being co-chaired by <b>Nico Hochgeschwender</b> (University of Bremen) and <b>Luciana Rebelo</b> (Gran Sasso Science Institute). 
-    </p> -->
+        <div class="col s8 m8 l8">
+            {{ content }}
+        </div>
+      <div class="col s4 m4 l4">
+        <table>
+            <thead>
+            <tr>
+                <th>{{site.conference_title_short}} {{site.year}}</th>
+                <!-- <th>Item Name</th> -->
+                <!-- <th>Item Price</th> -->
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td><strong>Dates</strong></td>
+                <td>{{site.dates}}</td>
+            </tr>
+            <tr>
+                <td><strong>Location</strong></td>
+                <td>{{site.venue}}</td>
+            </tr>
+            <tr>
+                <td><strong>Registration deadline</strong></td>
+                <td>{{site.deadline}}</td>
+            </tr>
+            </tbody>
+        </table>
+
+      </div>
+        </div>
 
 
-    <!-- <h2>Steering Committee</h2>
-        The Steering Committee of RSE include  <b>Thorsten Berger</b> (Ruhr University Bochum), <b>Patrizio Pelliccione</b> (Gran Sasso Science Institute), and <b>Davide Brugali</b> (University of Bergamo). -->
+    
+    </main>
+</div>
+    {% include organizers.html %} 
+
+      <div class="section scrollspy section-white-section" id="previous-editions">
+        <div class="container left-align">
+          <h2 class="left-align section-white-header">Previous Editions</h2>
+        <table>
+            <tbody>
+                <tr></tr>
+            {% for event in site.data.past_events %}
+            <tr>
+                <td><a href="{{site.url}}{{event.year}}/">RSE {{event.year}}</a></td>
+                <td>{{event.location}}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+        </div>
+        </div>
+         
          <!--The organizers are grateful for support from the following sponsors:-->
 
     <!--<h2>Sponsor</h2>-->
@@ -46,10 +94,6 @@
             </td>
         </tr>
     </table>-->
-    
-    </main>
-</div>
-    {% include organizers.html %} 
     {% include footer.html %}
     {% include js.html %}
 

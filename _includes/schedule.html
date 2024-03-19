@@ -4,6 +4,7 @@
           <h4 class="center-align section-gray-header">Schedule</h4>
 
           <div class="row">
+            <h5 class="left-align">Monday 2nd</h5>
             <div class="col s12 m10 offset-m1 l10 offset-l1 section-gray-body">
               <table class="schedule">
                   {% for session in site.data.program.day1 %}
@@ -18,5 +19,60 @@
               </table>
             </div>
           </div>
+
+          <!-- Temporary until schedule is fixed -->
+          <div class="row">
+            <h5 class="left-align">Tuestday 3rd</h5>
+            <div class="col s12 m10 offset-m1 l10 offset-l1 section-gray-body">
+              <table class="schedule">
+                  {% for session in site.data.program.day2 %}
+                  <tr>
+                    <th scope="row"><time>{{session.time}}</time></th>
+                    <td>
+                    <h5>{{session.title}}</h5>
+                    </td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+          
+          <div class="row">
+            <h5 class="left-align">Wednesady 4th</h5>
+            <div class="col s12 m10 offset-m1 l10 offset-l1 section-gray-body">
+              <table class="schedule">
+                  {% for session in site.data.program.day3 %}
+                  <tr>
+                    <th scope="row"><time>{{session.time}}</time></th>
+                    <td>
+                    <h5>{{session.title}}</h5>
+                    </td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="row">
+            <h5 class="left-align">Thursday 5th</h5>
+            <div class="col s12 m10 offset-m1 l10 offset-l1 section-gray-body">
+              <table class="schedule">
+                  {% for session in site.data.program.day4 %}
+                  <tr>
+                    <th scope="row"><time>{{session.time}}</time></th>
+                    <td>
+                    <h5>{{session.title}}</h5>
+                    </td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+
+
         </div>
       </div>

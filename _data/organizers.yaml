@@ -1,15 +1,15 @@
 - name: Nico Hochgeschwender
   title:  Title
-  image: https://via.placeholder.com/400
-  link: http://website.com
+  image: assets/nico.jpg
+  link: 
   affiliation: University of Bremen
 - name: Luciana Rebelo
   title:  Title
-  image: https://via.placeholder.com/400
-  link: http://website.com
+  image: assets/luciana.png
+  link: https://www.gssi.it/people/post-doc/post-doc-computer-science/item/17315-rebelo-luciana
   affiliation: Gran Sasso Science Institute
 - name: Argentina Ortega
   title:  Title
-  image: https://via.placeholder.com/400
-  link: http://website.com
+  image: "assets/argentina.png"
+  link: 
   affiliation: University of Bremen
