@@ -4,6 +4,8 @@ layout: schedule
 
 ## Tentative Program
 
+The tentative plan for the schedule is to start on Monday, September 2nd around 12:00 until Thursday, September 5th 14:00. The program includes keynote talks, tours at industrial and research labs in and around Bremen, and social activities in the evening.
+Depending on the amount of participants, we might be able to offer additional activities or discussions for Friday, September 6th.
  
 <!-- <img class="center" src="assets/Program.png" alt="Main program" id="mp">-->
     
