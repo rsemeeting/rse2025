@@ -25,5 +25,5 @@ The program is advertised but will be flexible in the sense that one can jump in
 > **Deadline: June 1st** ([AoE](https://time.is/Anywhere_on_Earth)).  
 > <a href="{{site.registration-page}}" class="btn" style="font-weight:bold; background-color: {{site.color.primary-dark}}">Apply Now</a>
 
-Due to organizational reasons,  there is a limit of 50 participants.  We will notify the selected participants shortly after the deadline. A registration fee (ca. €XXX/participant) will be required to confirm your participation.
+Due to organizational reasons,  there is a limit of 50 participants.  We will notify the selected participants shortly after the deadline. A registration fee of ca. €250/participant will be required to confirm your participation.The registration fee includes lunch, coffee and snacks during the coffee breaks, the social activity, and the RSE dinner.
 
