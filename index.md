@@ -22,7 +22,7 @@ RSE'24 does not require any paper submission, however, an abstract about the res
 The program is advertised but will be flexible in the sense that one can jump in if the talk fits well as a follow-up to another talk. Thus, everyone should be prepared to give their talk at any time, which gives synergy to the event. 
 
 > Please note that every participant needs to give a talk, this is the event rule.  
-> **Deadline: June 1st** ([AoE](https://time.is/Anywhere_on_Earth)).  
+> **Extended Deadline: June 22nd** ([AoE](https://time.is/Anywhere_on_Earth)).  
 > <a href="{{site.registration-page}}" class="btn" style="font-weight:bold; background-color: {{site.color.primary-dark}}">Apply Now</a>
 
 Due to organizational reasons,  there is a limit of 50 participants.  We will notify the selected participants shortly after the deadline. A registration fee of ca. €250/participant will be required to confirm your participation.The registration fee includes lunch, coffee and snacks during the coffee breaks, the social activity, and the RSE dinner.
