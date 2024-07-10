@@ -1,78 +1,75 @@
 <!-- Schedule section -->
-      <div class="section scrollspy section-gray-section" id="schedule">
-        <div class="container">
-          <h4 class="center-align section-gray-header">Schedule</h4>
 
-          <div class="row">
-            <h5 class="left-align">Monday 2nd</h5>
-            <div class="col s12 m10 offset-m1 l10 offset-l1 section-gray-body">
-              <table class="schedule">
-                  {% for session in site.data.program.day1 %}
-                  <tr>
-                    <th scope="row"><time>{{session.time}}</time></th>
-                    <td>
-                    <h5>{{session.title}}</h5>
-                    </td>
-                  </tr>
-                  {% endfor %}
-                </tbody>
-              </table>
-            </div>
-          </div>
+<!-- Overview -->
+<div class="section scrollspy" id="schedule-overview">
+  <!-- <div class="container"> -->
+    <h4 class="center-align">Overview</h4>
+    <div class="divider"></div>
 
-          <!-- Temporary until schedule is fixed -->
-          <div class="row">
-            <h5 class="left-align">Tuestday 3rd</h5>
-            <div class="col s12 m10 offset-m1 l10 offset-l1 section-gray-body">
-              <table class="schedule">
-                  {% for session in site.data.program.day2 %}
-                  <tr>
-                    <th scope="row"><time>{{session.time}}</time></th>
-                    <td>
-                    <h5>{{session.title}}</h5>
-                    </td>
-                  </tr>
-                  {% endfor %}
-                </tbody>
-              </table>
-            </div>
-          </div>
-          
-          <div class="row">
-            <h5 class="left-align">Wednesady 4th</h5>
-            <div class="col s12 m10 offset-m1 l10 offset-l1 section-gray-body">
-              <table class="schedule">
-                  {% for session in site.data.program.day3 %}
-                  <tr>
-                    <th scope="row"><time>{{session.time}}</time></th>
-                    <td>
-                    <h5>{{session.title}}</h5>
-                    </td>
-                  </tr>
-                  {% endfor %}
-                </tbody>
-              </table>
-            </div>
-          </div>
-
-          <div class="row">
-            <h5 class="left-align">Thursday 5th</h5>
-            <div class="col s12 m10 offset-m1 l10 offset-l1 section-gray-body">
-              <table class="schedule">
-                  {% for session in site.data.program.day4 %}
-                  <tr>
-                    <th scope="row"><time>{{session.time}}</time></th>
-                    <td>
-                    <h5>{{session.title}}</h5>
-                    </td>
-                  </tr>
-                  {% endfor %}
-                </tbody>
-              </table>
-            </div>
-          </div>
-
-
-
-        </div>
+    <!-- <div class="section"> -->
+      {% assign days = site.data.program.program_rse24 | group_by:"day" %}
+    <div class="row">
+      {% for day in days %}
+        <div class="col l3">
+          <h5>{{day.name}}</h5>
+        <table class="schedule">
+        {% assign day_sorted = day.items | sort:"start_time" %}
+        {% assign groups = day_sorted | group_by:"session" %}
+        {% for session in groups %}
+          <tbody>
+            <tr>
+              <th><time>{{session.items[0].start_time}}</time></th>
+              <td>
+              {{ session.items[0].topic }}
+              </td>
+            </tr>
+          </tbody>
+        {% endfor %}
+        </table>
       </div>
+      {% endfor %}
+  </div>
+</div>
+<!-- </div> -->
+
+<!-- Full program -->
+<div class="section scrollspy" id="schedule">
+  <div class="container">
+    <h4 class="center-align">Schedule</h4>
+
+
+    {% assign days = site.data.program.program_rse24 | group_by:"day" %}
+    {% for day in days %}
+    <div class="divider"></div>
+    <!-- <div class="section"> -->
+    <div class="row">
+      <h5>{{day.name}}</h5>
+      <div class="col s12 m6 offset-m1 l11 offset-l1">
+        <table class="schedule striped">
+          <tbody>
+            {% assign day_sorted = day.items | sort:"start_time"  %}
+            {% assign groups = day_sorted | group_by:"session" %}
+            {% for session in groups %}
+            <tr>
+              <th scope="row"><time>{{session.items[0].start_time}}</time></th>
+              <th scope="row"><time>{{session.items[-1].end_time}}</time></th>
+              <td>
+              <h6>{{ session.items[0].topic }}</h6>
+              {% for talk in session.items %}
+              {% if {{talk.speaker }} %}<b>{{ talk.speaker }}</b>: <i>{{ talk.title }}</i><br/>{% endif %}
+              {% if {{talk.bio}} %}{{ talk.bio }}<br/> {% endif %}
+              {% if {{talk.affiliation}} %}{{ talk.affiliation }}<br/> {% endif %}
+              {% if {{talk.abstract }} %}{{ talk.abstract }} {% endif %}
+              {% endfor %}
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+  </div>
+  <!-- </div> -->
+  {% endfor %}
+
+  </div>
+</div>
