@@ -1,85 +1,99 @@
 <!DOCTYPE html>
 <html lang='en'>
-  {% include head.html %}
-    
+{% include head.html %}
+
 <body>
-    <header>
-      {% include nav.html %}
-    </header>
+  <header>
+    {% include nav.html %}
+  </header>
 
 
-    <main>
-      {% include banner.html %}
+  <main>
+    {% include banner.html %}
 
 
-      <div class="container">
-        <h2>About {{site.title}} </h2>
-        <div class="row">
+    <div class="container">
+      <h2>About {{site.title}} </h2>
+      <div class="row">
 
-        <div class="col s8 m8 l8">
-            {{ content }}
+        <div class="col s12 m8 l8">
+          {{ content }}
         </div>
-      <div class="col s4 m4 l4">
-        <table>
-            <thead>
-            <tr>
-                <th>{{site.conference_title_short}} {{site.year}}</th>
-                <!-- <th>Item Name</th> -->
-                <!-- <th>Item Price</th> -->
-            </tr>
-            </thead>
+        <div class="col s12 m4 l4">
+          <h2>Important Dates </h2>
+          <table>
 
+            <!-- <thead>
+                    <tr>
+                        <th>{{site.conference_title_short}} {{site.year}}</th>
+                    </tr>
+                    </thead> -->
             <tbody>
-            <tr>
-                <td><strong>Dates</strong></td>
-                <td>{{site.dates}}</td>
-            </tr>
-            <tr>
-                <td><strong>Location</strong></td>
-                <td>{{site.venue}}</td>
-            </tr>
-            <tr>
-                <td><strong>Application deadline</strong></td>
-                <td>{{site.deadline}}</td>
-            </tr>
-            <tr>
+              <tr>
+                <td><strong>Meeting</strong></td>
+                <td>{{site.dates.meeting}}</td>
+              </tr>
+              <tr>
+                <td><strong>Application</strong></td>
+                <td>{% if site.dates.application.extension %}
+                  <s>{{site.dates.application.deadline}}</s><br />
+                  <b>Extended deadline</b>: {{site.dates.application.extension}}
+                  {% else %}
+                  {{site.dates.application.deadline}}
+                  {% endif %}
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Notification</strong></td>
+                <td>{% if site.dates.notification %}
+                  {{site.dates.notification}}
+                  {% else %}
+                  To be announced
+                  {% endif %}
+                </td>
+              </tr>
+              <tr>
                 <td><strong>Registration </strong></td>
-                <td> To be announced</td>
-            </tr>
+                <td>{% if site.dates.registration.extension %}
+                  <s>{{site.dates.registration.deadline}}</s>
+                  <b>Extended deadline</b>: {{site.dates.registration.extension}}
+                  {% else %}
+                  {{site.dates.registration.deadline}}
+                  {% endif %}
+                </td>
+              </tr>
             </tbody>
-        </table>
+          </table>
 
+        </div>
       </div>
-        </div>
+    </div>
+  </main>
 
+  {% include organizers.html %}
 
-    
-    </main>
-</div>
-    {% include organizers.html %} 
+  <div class="section scrollspy section-white-section" id="previous-editions">
+    <div class="container left-align">
+      <h2 class="left-align section-white-header">Previous Editions</h2>
+      <table>
+        <tbody>
+          <tr></tr>
+          {% for event in site.data.past_events %}
+          <tr>
+            <td><a href="{{site.url}}{{event.year}}/">RSE {{event.year}}</a></td>
+            <td>{{event.location}}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
 
-      <div class="section scrollspy section-white-section" id="previous-editions">
-        <div class="container left-align">
-          <h2 class="left-align section-white-header">Previous Editions</h2>
-        <table>
-            <tbody>
-                <tr></tr>
-            {% for event in site.data.past_events %}
-            <tr>
-                <td><a href="{{site.url}}{{event.year}}/">RSE {{event.year}}</a></td>
-                <td>{{event.location}}</td>
-            </tr>
-            {% endfor %}
-            </tbody>
-        </table>
-        </div>
-        </div>
-         
-         <!--The organizers are grateful for support from the following sponsors:-->
+  <!--The organizers are grateful for support from the following sponsors:-->
 
-    <!--<h2>Sponsor</h2>-->
-    
-     <!--<table class="sponsors">
+  <!--<h2>Sponsor</h2>-->
+
+  <!--<table class="sponsors">
         <tr>
             <td class="sponsor">
                 <a href="http://www.gssi.it/">
@@ -98,10 +112,10 @@
             </td>
         </tr>
     </table>-->
-    {% include footer.html %}
-    {% include js.html %}
+  {% include footer.html %}
+  {% include js.html %}
 
- 
+
 </body>
-</html>
 
+</html>

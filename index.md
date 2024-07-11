@@ -21,9 +21,16 @@ In this edition, we plan for a four-day event, from Monday 11:00 to Thursday at 
 RSE'24 does not require any paper submission, however, an abstract about the research that is to be presented is required to apply. 
 The program is advertised but will be flexible in the sense that one can jump in if the talk fits well as a follow-up to another talk. Thus, everyone should be prepared to give their talk at any time, which gives synergy to the event. 
 
+> <strong><i class="small material-icons">announcement</i> Application</strong>   
 > Please note that every participant needs to give a talk, this is the event rule.  
-> **Extended Deadline: June 22nd** ([AoE](https://time.is/Anywhere_on_Earth)).  
-<!-- > <a href="{{site.registration-page}}" class="btn" style="font-weight:bold; background-color: {{site.color.primary-dark}}">Apply Now</a> -->
+<!-- > **Extended Deadline: June 22nd** ([AoE](https://time.is/Anywhere_on_Earth)).   -->
+{% if site.dates.application.extension -%}
+>  **Extended deadline: {{site.dates.application.extension}}** <s><b>Deadline: {{site.dates.application.deadline}}</b></s>
+{% else -%}
+> **Deadline: {{site.dates.application.deadline}}t** ([AoE](https://time.is/Anywhere_on_Earth)) 
+{% endif -%}
+> Applications are now closed. Please send an email to {{ site.organizer-email }}
+<!-- > <a href="{{site.application-page}}" class="btn" style="font-weight:bold; background-color: {{site.color.primary-dark}}">Apply Now</a> -->
 
 Due to organizational reasons,  there is a limit of 50 participants.  We will notify the selected participants shortly after the deadline. A registration fee of ca. €250/participant will be required to confirm your participation.The registration fee includes lunch, coffee and snacks during the coffee breaks, the social activity, and the RSE dinner.
 
