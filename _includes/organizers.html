@@ -1,16 +1,12 @@
-<!-- Organizers section -->
-<div class="section scrollspy section-gray-section">
+<div class="section scrollspy">
   <div class="container">
-    <h2 class="left-align section-gray-header">Organizers</h2>
-
-    <div class="row">
-      <div class="col s12 m12 l12 section-gray-body">
-        <p class="left">For any questions about the meeting, please contact <a
-            href="mailto:{{site.organizer-email}}">{{site.organizer-email}}</a>.
-        </p>
-      </div>
+    <div class="col s12 m12 l12">
+      <p class="left">For any questions or suggestions about the meeting, please email us at <a
+          href="mailto:{{site.organizer-email}}">{{site.organizer-email}}</a>.</p>
     </div>
 
+    <!-- Organizers section -->
+    <h3 class="left-align section-gray-header">Organizers</h3>
     <div class="row">
       {% assign organizers_sorted = site.data.organizers | sort:"order_number" %}
       {% for organizers in organizers_sorted %}
@@ -31,10 +27,8 @@
       {% endfor %}
     </div>
 
-
-    <h2 class="left-align">Steering Committee</h2>
-
-
+    <!-- Steering committee -->
+    <h3 class="left-align">Steering Committee</h3>
     <div class="row">
       {% assign advisors_sorted = site.data.steering_committee | sort:"order_number" %}
       {% for advisor in advisors_sorted %}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang='en'>
+{% include head.html %}
+
+<body>
+  <header>
+    {% include nav.html %}
+  </header>
+
+  <main>
+    {% include banner.html %}
+
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m12 l12">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="section scrollspy section-white-section" id="previous-editions">
+    <div class="container left-align">
+      <h2 class="left-align section-white-header">Previous Editions</h2>
+      <table>
+        <tbody>
+          <tr></tr>
+          {% for event in site.data.past_events %}
+          <tr>
+            <td><a href="{{site.url}}{{event.year}}/">RSE {{event.year}}</a></td>
+            <td>{{event.location}}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!--The organizers are grateful for support from the following sponsors:-->
+
+  <!--<h2>Sponsor</h2>-->
+
+  <!--<table class="sponsors">
+        <tr>
+            <td class="sponsor">
+                <a href="http://www.gssi.it/">
+                    <img src="assets/logo-gssi.png" alt="GSSI" style="width: 50%">
+                </a>
+            </td>
+           <td class="sponsor">
+                <a href="https://www.univaq.it/">
+                    <img src="assets/UnivaqLogo.png" alt="Second Sponsor Name" style="width: 80%">
+                </a>
+            </td>
+            <td class="sponsor">
+                <a href="http://www.eyebleach.me/">
+                    <img src="assets/kitten3.jpg" alt="Third Sponsor Name">
+                </a>
+            </td>
+        </tr>
+    </table>-->
+
+  {% include footer.html %}
+  {% include js.html %}
+
+</body>
+
+</html>
