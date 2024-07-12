@@ -501,20 +501,93 @@ h4 {
 }
 
 .schedule tbody td {
-  width: 80%;
+  width: 40%;
 }
 
 .schedule tbody th {
-  color: #a9b2b9;
-  /*padding-top: 40px;  */
-  font-size: 14px;
-  /*font-weight: 400;*/
-  /*text-transform: uppercase;*/
-  /*vertical-align: top;*/
-  width: 20%;
-  text-align: right;
-  padding-right: 45px;
+  color: #3c3c3c;
+  width: 10%;
+  padding-right: 5px;
 }
+
+.schedule h5 {
+  color: #9d2246;
+}
+
+.session h5 {
+  color: #3c3c3c;
+}
+
+.row .col .time-slot {
+  background-color: #00326d;
+  color: #ebeef2;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  margin: 6px 6px 6px 0px;
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  padding: 24px 6px;
+}
+
+.session {
+  display: flex;
+}
+
+.session-details {
+  padding: 1rem;
+  margin: 6px 6px 6px 0px;
+	border: 1px solid #ddd;
+  background-color: #d5e3f3;
+  color: #3c3c3c;
+}
+
+.schedule-overview tbody th {
+  color: #a9b2b9;
+  padding: 5px;
+}
+.schedule-overview tbody td {
+  padding: 5px;
+}
+
+.schedule-overview caption {
+  font-size: 1.25rem;
+  font-weight: bold !important;
+  color: #00326d;
+  padding: 5px;
+}
+
+html body main div.container div.row div.col.s12.m12.l12 div.section div.row div.session div.col.l10 ul.collapsible.expandable,
+.row .session .col .collapsible .expandable {
+  box-shadow: unset;
+  margin: 6px 6px 6px 0px;
+  background-color: #d5e3f3;
+  color: #3c3c3c;
+}
+
+html body main div.container div.row div.col.s12.m12.l12 div.section div.row div.session div.col.l10 ul.collapsible.expandable li div.collapsible-header,
+html body main div.container div.row div.col.s12.m12.l12 div.section div.row div.session div.col.l10 ul.collapsible.expandable li.active div.collapsible-header {
+  border-bottom: none;
+  background-color: #d5e3f3;
+  color: #3c3c3c;
+}
+
+html body main div.container div.row div.col.s12.m12.l12 div.section div.row div.session div.col.l10 ul.collapsible.expandable li {
+  border-bottom: 1px solid #ddd;
+}
+// html body main div.container div.row div.col.s12.m12.l12 div.section div.row div.session div.col.l10 ul.collapsible.expandable li.active div.collapsible-body {
+//   border-bottom: none;
+// }
+
+html body main div.container div.row div.col.s12.m12.l12 div.section div.row div.session div.col.l10 ul.collapsible.expandable li.active div.collapsible-body {
+  padding-top: 0.5rem;
+}
+
+.collapsible-header .material-icons {
+  margin: 1.0933333333rem 0 .656rem 0;
+}
+
 
 .papers {}
 
