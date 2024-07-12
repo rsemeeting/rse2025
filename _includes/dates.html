@@ -1,0 +1,44 @@
+<h2>Important Dates </h2>
+<table>
+
+    <!-- <thead>
+        <tr>
+            <th>{{site.conference_title_short}} {{site.year}}</th>
+        </tr>
+    </thead> -->
+    <tbody>
+        <tr>
+            <td><strong>Meeting</strong></td>
+            <td>{{site.dates.meeting}}</td>
+        </tr>
+        <tr>
+            <td><strong>Application</strong></td>
+            <td>{% if site.dates.application.extension %}
+                <s>{{site.dates.application.deadline}}</s><br />
+                <b>Extended deadline</b>: {{site.dates.application.extension}}
+                {% else %}
+                {{site.dates.application.deadline}}
+                {% endif %}
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Notification</strong></td>
+            <td>{% if site.dates.notification %}
+                {{site.dates.notification}}
+                {% else %}
+                To be announced
+                {% endif %}
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Registration </strong></td>
+            <td>{% if site.dates.registration.extension %}
+                <s>{{site.dates.registration.deadline}}</s>
+                <b>Extended deadline</b>: {{site.dates.registration.extension}}
+                {% else %}
+                {{site.dates.registration.deadline}}
+                {% endif %}
+            </td>
+        </tr>
+    </tbody>
+</table>
