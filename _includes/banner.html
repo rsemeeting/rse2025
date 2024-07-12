@@ -1,12 +1,18 @@
 <!-- Banner section -->
 <div id="banner" class="banner">
     <div class="container" style="text-align:right">
-        <h2 class="right-align banner-heading">Robotics Software Engineering {{site.year}}</h2>
-        <h4 class="right-align banner-subheading">{{ site.venue }}</h4>
-        <h4 class="right-align banner-subheading">{{ site.dates.meeting }}</h4>
-        <br />
-        <!-- <a href="{{site.application-page}}" class="btn-large" style="font-weight:bold; background-color: {{site.color.primary-dark}}">Apply Now</a> -->
-        <br />
+        <div class="row">
+            <div class="col l12">
+                <h1 class="right-align banner-heading">Robotics Software Engineering {{site.year}}</h1>
+            </div>
+            <div class="col m7 l7 push-l5 push-m5">
+                <p class="banner-subheading right-align">{{ site.venue }}<br>
+                    {{ site.dates.meeting }}</p>
+                <br />
+                <a href="#application" class="btn-large">Apply Now</a>
+                <br />
+            </div>
+        </div>
         <figcaption class="left-align">{{ site.copyright-image | markdownify }}</figcaption>
     </div>
 </div>
