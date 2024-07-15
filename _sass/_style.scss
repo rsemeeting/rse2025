@@ -525,7 +525,28 @@ h6{
   color: #3c3c3c;
 }
 
-.row .col .time-slot {
+.session-title{
+  font-weight: bold !important;
+  font-size: 1.25rem !important;
+}
+
+.speaker{
+  font-weight: bold !important;
+  font-size: 1rem !important;
+}
+.speaker-bio{
+  margin-top: 0 !important;
+}
+
+.talk-title {
+  font-style: italic;
+}
+
+.session {
+  display: flex;
+}
+
+.session .time-slot {
   background-color: #00326d;
   color: #ebeef2;
   border-top: 1px solid #fff;
@@ -538,12 +559,13 @@ h6{
   padding: 24px 6px;
 }
 
-.session {
-  display: flex;
+.time-slot p {
+  padding: 5px;
 }
 
 .session-details {
-  padding: 1rem;
+  padding-top: 5px;
+  padding-left: 1rem;
   margin: 6px 6px 6px 0px;
 	border: 1px solid #ddd;
   background-color: #d5e3f3;
@@ -566,29 +588,30 @@ h6{
   padding: 5px;
 }
 
-html body main div.container div.row div.col.s12.m12.l12 div.section div.row div.session div.col.l10 ul.collapsible.expandable,
-.row .session .col .collapsible .expandable {
+.session div.col.l10 ul.collapsible.expandable,
+.session .col .collapsible .expandable {
   box-shadow: unset;
   margin: 6px 6px 6px 0px;
   background-color: #d5e3f3;
   color: #3c3c3c;
 }
 
-html body main div.container div.row div.col.s12.m12.l12 div.section div.row div.session div.col.l10 ul.collapsible.expandable li div.collapsible-header,
-html body main div.container div.row div.col.s12.m12.l12 div.section div.row div.session div.col.l10 ul.collapsible.expandable li.active div.collapsible-header {
+.session div.col.l10 ul.collapsible.expandable li div.collapsible-header,
+.session div.col.l10 ul.collapsible.expandable li.active div.collapsible-header {
   border-bottom: none;
   background-color: #d5e3f3;
   color: #3c3c3c;
+  padding-top: 5px;
 }
 
-html body main div.container div.row div.col.s12.m12.l12 div.section div.row div.session div.col.l10 ul.collapsible.expandable li {
+.session div.col.l10 ul.collapsible.expandable li {
   border-bottom: 1px solid #ddd;
 }
 // html body main div.container div.row div.col.s12.m12.l12 div.section div.row div.session div.col.l10 ul.collapsible.expandable li.active div.collapsible-body {
 //   border-bottom: none;
 // }
 
-html body main div.container div.row div.col.s12.m12.l12 div.section div.row div.session div.col.l10 ul.collapsible.expandable li.active div.collapsible-body {
+.session div.col.l10 ul.collapsible.expandable li.active div.collapsible-body {
   padding-top: 0.5rem;
 }
 

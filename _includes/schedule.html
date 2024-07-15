@@ -42,15 +42,15 @@
     {% for session in groups %}
     <div class="session">
 
-    <div class="col l2 time-slot"><time>{{session.items[0].start_time}}</time> - <time>{{session.items[-1].end_time}}</time>
+    <div class="col s2 m2 l2 time-slot"><p><time>{{session.items[0].start_time}}</time> - <time>{{session.items[-1].end_time}}</time></p>
     </div>
     {% assign session_size = session.items | size %}
-    <div class="col l10">
+    <div class="col s10 m10 l10">
     {% if session_size > 1 %}
       <ul class="collapsible expandable">
         <li class="active">
           <div class="collapsible-header">
-            <p><h5>{{ session.items[0].topic }}</h5><br></p>
+            <p><h5 class="session-title">{{ session.items[0].topic }}</h5><br></p>
           </div>
           <!-- <div style="padding-left: 1rem; margin: 0px;"><p style="margin: 0px;"><i class="material-icons">timer</i> {{ session_size | times: 25}} min</p></div> -->
           <div class="collapsible-body">
@@ -67,7 +67,7 @@
                   </td>
                   <td>
                     <details open>
-                      <summary><i>{{ talk.title }}</i></summary>
+                      <summary><i class="talk-title">{{ talk.title }}</i></summary>
                       {% if {{talk.abstract }} %}<b>Abstract: </b>{{ talk.abstract }} {% endif %}
                     </details>
                   </td>
@@ -82,17 +82,17 @@
     {% else %}
       {% assign talk = session.items[0] %}
       <div class="session-details">
-      <h5>{{ talk.topic }}</h5>
+      <h5 class="session-title">{{ talk.topic }}</h5>
       <!-- <div><i class="material-icons">timer</i> {{talk.duration}}</div> -->
       {% case talk.topic %}
         {% when "Coffee Break" %}
         {% when "Lunch" %}
         {% when "Round Table Discussions" %}
         {% when "Keynote", "Welcome talk" %}
-          <h6>{{ talk.speaker }}</h6>
-            <p>{{ talk.bio }},<br>
+          <h6 class="speaker">{{ talk.speaker }}</h6>
+            <p class="speaker-bio">{{ talk.bio }},<br>
             {{ talk.affiliation }}</p>
-            <p style="text-align: justify;"><b>{{ talk.title }}</b><br>
+            <p style="text-align: justify;"><b class="talk-title">{{ talk.title }}</b><br>
             <span><b>Abstract</b>: {{ talk.abstract }}</span>
             </p>
         {% else %}
@@ -110,7 +110,7 @@
 </div>
 
 
-<div class="section scrollspy" id="schedule">
+<div class="section scrollspy" id="schedule-flat">
   <h3 class="center-align">Schedule (flat)</h3>
 
 
