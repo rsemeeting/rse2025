@@ -1,53 +1,51 @@
 <div class="section scrollspy">
-  <div class="container">
-    <div class="col s12 m12 l12">
-      <p class="left">For any questions or suggestions about the meeting, please email us at <a
-          href="mailto:{{site.organizer-email}}">{{site.organizer-email}}</a>.</p>
-    </div>
-
-    <!-- Organizers section -->
-    <h3 class="left-align section-gray-header">Organizers</h3>
-    <div class="row">
-      {% assign organizers_sorted = site.data.organizers | sort:"order_number" %}
-      {% for organizers in organizers_sorted %}
-      <a href="{{organizers.link}}">
-        <div class="col s12 m6 l3">
-          <div class="card hoverable">
-            <div class="card-image">
-              <img class="activator portrait-img" src="{{organizers.image}}">
-              <span class="card-title" id="main-title">{{organizers.name}}</span>
-            </div>
-            <div class="card-content" id="secondary-title">
-              <!-- <span class="card-title activator" id="secondary-title-text">{{organizers.title}}</span> -->
-              <span class="card-title activator" id="secondary-title-text">{{organizers.affiliation}}</span>
-            </div>
-          </div>
-        </div>
-      </a>
-      {% endfor %}
-    </div>
-
-    <!-- Steering committee -->
-    <h3 class="left-align">Steering Committee</h3>
-    <div class="row">
-      {% assign advisors_sorted = site.data.steering_committee | sort:"order_number" %}
-      {% for advisor in advisors_sorted %}
-      <a href="{{advisor.link}}">
-        <div class="col s12 m6 l3">
-          <div class="card hoverable">
-            <div class="card-image">
-              <img class="activator portrait-img" src="{{advisor.image}}">
-              <span class="card-title" id="main-title">{{advisor.name}}</span>
-            </div>
-            <div class="card-content" id="secondary-title">
-              <!-- <span class="card-title activator" id="secondary-title-text">{{advisor.title}}</span> -->
-              <span class="card-title activator" id="secondary-title-text">{{advisor.affiliation}}</span>
-            </div>
-          </div>
-        </div>
-      </a>
-      {% endfor %}
-    </div>
-
+  <div class="col s12 m12 l12">
+    <p class="left">For any questions or suggestions about the meeting, please email us at <a
+        href="mailto:{{site.organizer-email}}">{{site.organizer-email}}</a>.</p>
   </div>
+
+  <!-- Organizers section -->
+  <div class="row">
+    <h3 class="left-align section-gray-header">Organizers</h3>
+    {% assign organizers_sorted = site.data.organizers | sort:"order_number" %}
+    {% for organizers in organizers_sorted %}
+    <a href="{{organizers.link}}">
+      <div class="col s12 m6 l2">
+        <div class="card hoverable">
+          <div class="card-image">
+            <img class="activator portrait-img" src="{{organizers.image}}">
+            <span class="card-title" id="main-title">{{organizers.name}}</span>
+          </div>
+          <div class="card-content" id="secondary-title">
+            <!-- <span class="card-title activator" id="secondary-title-text">{{organizers.title}}</span> -->
+            <span class="card-title activator" id="secondary-title-text">{{organizers.affiliation}}</span>
+          </div>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+
+  <!-- Steering committee -->
+  <div class="row">
+    <h3 class="left-align">Steering Committee</h3>
+    {% assign advisors_sorted = site.data.steering_committee | sort:"order_number" %}
+    {% for advisor in advisors_sorted %}
+    <a href="{{advisor.link}}">
+      <div class="col s12 m6 l2">
+        <div class="card hoverable">
+          <div class="card-image">
+            <img class="activator portrait-img" src="{{advisor.image}}">
+            <span class="card-title" id="main-title">{{advisor.name}}</span>
+          </div>
+          <div class="card-content" id="secondary-title">
+            <!-- <span class="card-title activator" id="secondary-title-text">{{advisor.title}}</span> -->
+            <span class="card-title activator" id="secondary-title-text">{{advisor.affiliation}}</span>
+          </div>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+
 </div>
