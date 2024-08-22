@@ -542,6 +542,10 @@ h6{
   font-style: italic;
 }
 
+.talk-abstract{
+  margin-right: 5px;
+}
+
 .session {
   display: flex;
 }
@@ -566,6 +570,7 @@ h6{
 .session-details {
   padding-top: 5px;
   padding-left: 1rem;
+  padding-right: 2rem;
   margin: 6px 6px 6px 0px;
 	border: 1px solid #ddd;
   background-color: #d5e3f3;

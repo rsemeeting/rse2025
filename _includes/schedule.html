@@ -31,8 +31,8 @@
 
 <!-- Full program -->
 {% assign days = site.data.program.program_rse24 | group_by:"day" %}
-<div class="section">
-  <h3 class="center-align">Schedule (collapsible)</h3>
+<div class="section" id="schedule">
+  <h3 class="center-align">Schedule</h3>
   <div class="divider"></div>
   <div class="row">
     {% for day in days %}
@@ -62,7 +62,7 @@
                   <th><time>{{talk.start_time}}</time></th>
                   <!-- <th><time>{{talk.end_time}}</time></th> -->
                   <td><b>{{ talk.speaker }}</b>
-                    {%- if {{talk.bio}} -%}, {{ talk.bio }}{% endif -%}
+                    {%- if {{talk.position}} -%}, {{ talk.position }}{% endif -%}
                     {% if {{talk.affiliation}} %}, {{ talk.affiliation }}{% endif %}
                   </td>
                   <td>
@@ -90,8 +90,9 @@
         {% when "Round Table Discussions" %}
         {% when "Keynote", "Welcome talk" %}
           <h6 class="speaker">{{ talk.speaker }}</h6>
-            <p class="speaker-bio">{{ talk.bio }},<br>
+            <p class="speaker-bio">{{ talk.position }},<br>
             {{ talk.affiliation }}</p>
+            {% if {{talk.bio}} %}<p style="text-align: justify;"><b>Bio:</b> {{ talk.bio }}</p>{% endif %}
             <p style="text-align: justify;"><b class="talk-title">{{ talk.title }}</b><br>
             <span><b>Abstract</b>: {{ talk.abstract }}</span>
             </p>
@@ -109,50 +110,3 @@
   </div>
 </div>
 
-
-<div class="section scrollspy" id="schedule-flat">
-  <h3 class="center-align">Schedule (flat)</h3>
-
-
-  {% for day in days %}
-  <div class="divider"></div>
-  <div class="row">
-    <h4>{{day.name}}</h4>
-    <div class="col s12 m12 l12">
-      <table class="schedule">
-        <tbody>
-          {% assign day_sorted = day.items | sort:"start_time" %}
-          {% assign groups = day_sorted | group_by:"session" %}
-          {% for session in groups %}
-          <tr>
-            <th><time>{{session.items[0].start_time}}</time></th>
-            <th><time>{{session.items[-1].end_time}}</time></th>
-            <td>
-              <h5>{{ session.items[0].topic }}</h5>
-            </td>
-          </tr>
-          {% for talk in session.items %}
-          {% if {{talk.speaker }} %}
-          <tr>
-            <th><time>{{talk.start_time}}</time></th>
-            <th><time>{{talk.end_time}}</time></th>
-            <td><b>{{ talk.speaker }}</b>
-              {%- if {{talk.bio}} -%}, {{ talk.bio }}{% endif -%}
-              {% if {{talk.affiliation}} %}, {{ talk.affiliation }}{% endif %}
-            </td>
-            <td>
-              <details open>
-                <summary><i>{{ talk.title }}</i></summary>
-                {% if {{talk.abstract }} %}<b>Abstract: </b>{{ talk.abstract }} {% endif %}
-              </details>
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </tbody>
-      </table>
-    </div>
-  </div>
-  {% endfor %}
-</div>
