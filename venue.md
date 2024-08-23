@@ -15,7 +15,7 @@ directions-link: https://www.uni-bremen.de/en/university/campus/getting-here
 The meeting will be held in the [Mehrzweckhochhaus building](https://www.uni-bremen.de/en/university/campus/campus-map/buildings/building/116), more commonly known as (and easier to pronounce) **MZH**, which is centrally located in the university. 
 You can download a map of the university [here](https://www.uni-bremen.de/en/university/campus/campus-map#c71945).
 
-<img width="500" src="https://www.uni-bremen.de/fileadmin/user_upload/global/fotos/universitaet/gebaeude/foto_2020/MZH_DH_968-7278.jpg">
+<img width="100%" src="https://www.uni-bremen.de/fileadmin/user_upload/global/fotos/universitaet/gebaeude/foto_2020/MZH_DH_968-7278.jpg">
 <figcaption class="left-align">© Universität Bremen</figcaption>
 
 **Address**  
@@ -28,9 +28,9 @@ You can download a map of the university [here](https://www.uni-bremen.de/en/uni
 {% include map.html %}
 
 
-<img src="http://www.uni-bremen.de/fileadmin/user_upload/global/fotos/universitaet/gebaeude/schema/700/116.gif">
+<img width="100%" src="http://www.uni-bremen.de/fileadmin/user_upload/global/fotos/universitaet/gebaeude/schema/700/116.gif">
 <figcaption class="left-align">© Universität Bremen</figcaption>
 
 The sessions will take place in room **MZH 1090**, in the first floor of the MZH building:
 
-<a href="https://oracle-web.zfn.uni-bremen.de/web/lageplan?haus=MZH&raum=1090&pi_anz=0"><img class="responsive-img" src="{{'/assets/MZH1090.png' | prepend: site.baseurl }}" alt="Layout of the 1st floor of the MZH building. Room 1090 marked in yellow"></a>
+<a href="https://oracle-web.zfn.uni-bremen.de/web/lageplan?haus=MZH&raum=1090&pi_anz=0"><img width="100%" class="responsive-img" src="{{'/assets/MZH1090.png' | prepend: site.baseurl }}" alt="Layout of the 1st floor of the MZH building. Room 1090 marked in yellow"></a>
