@@ -61,11 +61,11 @@
                 <tr>
                   <th><time>{{talk.start_time}}</time></th>
                   <!-- <th><time>{{talk.end_time}}</time></th> -->
-                  <td><b>{{ talk.speaker }}</b>
+                  <td><b>{{ talk.speaker }}</b><br>
                     {%- if {{talk.position}} -%}, {{ talk.position }}{% endif -%}
                     {% if {{talk.affiliation}} %}, {{ talk.affiliation }}{% endif %}
                   </td>
-                  <td>
+                  <td style="text-align: justify;">
                     <details open>
                       <summary><i class="talk-title">{{ talk.title }}</i></summary>
                       {% if {{talk.abstract }} %}<b>Abstract: </b>{{ talk.abstract }} {% endif %}
