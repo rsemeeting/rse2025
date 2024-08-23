@@ -61,9 +61,9 @@
                 <tr>
                   <th><time>{{talk.start_time}}</time></th>
                   <!-- <th><time>{{talk.end_time}}</time></th> -->
-                  <td><b>{{ talk.speaker }}</b><br>
+                  <td><b>{{ talk.speaker }}</b>
                     {%- if {{talk.position}} -%}, {{ talk.position }}{% endif -%}
-                    {% if {{talk.affiliation}} %}, {{ talk.affiliation }}{% endif %}
+                    {% if {{talk.affiliation}} %},<br> {{ talk.affiliation }}{% endif %}
                   </td>
                   <td style="text-align: justify;">
                     <details open>
