@@ -17,7 +17,7 @@ dates:
     extension: June 22nd
   notification: July 10th
   registration:
-    deadline: To be announced
+    deadline: August 30th
     # extension: 
 
 # Color settings
@@ -36,7 +36,7 @@ directions-link: https://www.uni-bremen.de/en/university/campus/getting-here
 map-embed: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4790.394259466907!2d8.849937576572112!3d53.106652772220656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b1263299f7f1bd%3A0xcbac5c0abd21aa1f!2sMZH%2C%2028359%20Bremen!5e0!3m2!1sde!2sde!4v1720626450757!5m2!1sde!2sde
 organizer-email : rsemeeting@gmail.com
 application-page : https://forms.gle/riS111Z48CrhDCLW9
-# registration-page: http://
+registration-page: https://px.convent-registration.de/cgi-bin/rf?company=28207&event=1202&language=1&entry=9&onsite_mode=0
 
 collections:
   # - invited_speakers
