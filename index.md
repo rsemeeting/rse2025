@@ -8,7 +8,7 @@ venue:
     Germany  
   directions-link: https://www.uni-bremen.de/en/university/campus/getting-here
 applications: false
-registration: false
+registration: true
 ---
 
 ## About
