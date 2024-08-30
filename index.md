@@ -30,7 +30,7 @@ The program is advertised but will be flexible in the sense that one can jump in
 
 ### Registration
 
-Due to organizational reasons,  there is a limit of 50 participants.  We will notify the selected participants shortly after the deadline. A registration fee of €230/participant will be required to confirm your participation.The registration fee includes lunch, coffee and snacks during the coffee breaks, the social activity, and the RSE dinner.
+Due to organizational reasons,  there is a limit of 50 participants.  We will notify the selected participants shortly after the deadline. A registration fee of €210/participant will be required to confirm your participation.The registration fee includes lunch, coffee and snacks during the coffee breaks, the social activity, and the RSE dinner.
 
 
 <div class="divider"></div>
