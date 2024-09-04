@@ -90,16 +90,18 @@ The development of new ML technology typically focuses on the performance of mod
 This talk will explore how ML models can be integrated into a robotic system. I will focus on the training of ML models in a system context and how we can use knowledge from the application domain to improve ML for a specific task. This includes preliminary results and challenges. ",Sessions & Discussions,We3,Wednesday 4th,16:10,25,16:35
 ,,,,,,,Sessions & Discussions,We3,Wednesday 4th,16:35,0,16:35
 ,,,,,,,Round Table Discussions,We.RT,Wednesday 4th,16:35,30,17:05
-,,,,,,"Tour of the city of Bremen
-
-Meeting point: Roland
-Tram stop: Domsheide",Social Event,We.SE,Wednesday 4th,18:30,60,19:30
-,,,,,,"Beck's in'n Snoor
-
-Schnoor 34-36, 
-28195 Bremen
-
-Tram stop: Domsheide",Dinner,We.Di,Wednesday 4th,19:45,,
+,,,,,,"Tour of the city of Bremen<br>
+<br>
+Meeting point: Roland<br>
+Tram stop: Domsheide<br>
+<a href=""https://maps.app.goo.gl/drX63eGgzaDj3xHf9"">Google Maps</a>",Social Event,We.SE,Wednesday 4th,18:30,60,19:30
+,,,,,,"Beck's in'n Snoor<br>
+<br>
+Schnoor 34-36,<br> 
+28195 Bremen<br>
+<br>
+Tram stop: Domsheide<br>
+<a href=""https://maps.app.goo.gl/qiLu74JqgkQm8ZPVA"">Google Maps</a>",Dinner,We.Di,Wednesday 4th,19:45,,
 ,Kevin Hermann,Ruhr-University Bochum,,,"Engineering Security Features - Practices, Challenges, and Insights from Industry Professionals","Cyber-physical systems process a substantial amount of sensitive data and operate in safety-critical environments. As such, they are valuable assets for adversaries who threaten the security of such systems. Implementing Security Features - functionalities that mitigate these threats - is of utmost importance to reduce potential costs and harm. Consequently, the research community invests substantial effort into developing new security technologies that can keep pace with adversarial actors who continuously discover and exploit new vulnerabilities. We therefore significantly rely on assumptions that are largely based on common sense or individual examples, since we currently lack an empirical understanding of how security features are engineered in practice. However, common sense or intuition is not enough to better target our research efforts and make them more effective in practice.
 Developers need to systematically select, plan, design, implement, and especially maintain and evolve security features. While there have been plenty of studies on the use of libraries (e.g., APIs of cryptography libraries), surprisingly little is known about how developers engineer security features. How do they select what security feature to implement in a given system? What is the process to design and implement security features? What challenges arise and what must be done to overcome them?
 We interviewed knowledgeable industrial professionals involved in the engineering process of security features, exploring how they select and engineer them in practice. We identified key challenges and practices they use to overcome them.
