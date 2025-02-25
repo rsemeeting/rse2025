@@ -10,7 +10,7 @@
             <h5 class="white-text">Previous editions</h5>
             <ul>
             {% for event in site.data.past_events %}
-                <li><a class="light-blue-text text-lighten-2" href="{{site.url}}{{event.year}}/">RSE {{event.year}}</a> - {{event.location}}</li>
+                <li><a class="light-blue-text text-lighten-2" href="{{event.url}}/">RSE {{event.year}}</a> - {{event.location}}</li>
             {% endfor %}
             </ul>
           </div>
