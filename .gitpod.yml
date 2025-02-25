@@ -7,4 +7,4 @@ tasks:
           source ~/.bashrc
           gem install jekyll bundler
           bundle init
-          echo "gem "jekyll"" >> Gemfile
+          echo 'gem "jekyll"' >> Gemfile
