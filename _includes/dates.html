@@ -17,7 +17,7 @@
                 <s>{{site.dates.application.deadline}}</s><br />
                 <strong>Extended deadline</strong>: {{site.dates.application.extension}}
                 {% else %}
-                {{site.dates.application.deadline}}
+                Deadline: {{site.dates.application.deadline}}
                 {% endif %}
 
                 {% if site.application-page %}
@@ -25,7 +25,7 @@
                 <blockquote><strong><i class="small material-icons">announcement</i> </strong> Applications are now closed. Please <a href="mailto:{{ site.organizer-email }}">send an email</a> to the organizers.
                 </blockquote>
                 {%- endunless %}
-                <br><a href="{{site.application-page}}" class="btn {% unless page.applications %} disabled {% endunless %}" style="font-weight:bold; background-color: {{site.color.primary-dark}}">Apply Now</a>
+                <br><a href="{{site.application-page}}" target="_blank" class="btn {% unless page.applications %} disabled {% endunless %}" style="font-weight:bold; background-color: {{site.color.primary-dark}}">Apply Now</a>
                 {% endif %}
             </td>
         </tr>

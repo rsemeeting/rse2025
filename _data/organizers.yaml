@@ -1,12 +1,12 @@
 - name: Miguel Campusano
   title:  Title
   image: assets/Miguel.jpg
-  link: 
+  link: https://portal.findresearcher.sdu.dk/en/persons/miguel-campusano
   affiliation: University of Southern Denmark, Denmark
 - name: Ulrik Pagh Schultz Lundquist
   title:  Title
   image: assets/Ulrik.jpg
-  link: 
+  link: https://portal.findresearcher.sdu.dk/da/persons/ulrik-pagh-schultz-lundquist
   affiliation: University of Southern Denmark, Denmark
 - name: Luciana Rebelo
   title:  Title
@@ -15,6 +15,6 @@
   affiliation: Gran Sasso Science Institute, Italy
 - name: Thorsten Berger
   title:  Title
-  link: 
+  link: https://se.ruhr-uni-bochum.de/thorsten-berger/
   image: assets/thorsten.jpg
   affiliation: Ruhr University Bochum, Germany

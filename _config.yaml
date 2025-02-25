@@ -3,7 +3,7 @@ title: RSE'25
 description: The 2025 Robotics Software Engineering (RSE25) meeting will be held in the University of Southern Denmark, Denmark from September 8th to September 11th 2025.
 
 url: http://rsemeeting.github.io/
-baseurl: '/rse2025/'
+baseurl: '/rse2025'
 
 conference_title: "Robotics Software Engineering"
 conference_title_short: "RSE"
