@@ -5,6 +5,7 @@ layout: default
 # Travel Information
 
 ## Transportation
+<!--
 
 ### Plane
 
@@ -45,3 +46,5 @@ Some hotels include:
 - [B&B Bremen City](https://www.hotel-bb.com/de/hotel/bremen-city), starting at 71€ double/queen room, approx. 20min by public transport and 12min by bike
 
 Make sure you use your institution's address for your invoice and indicate that you are travelling for business to avoid paying the 5% city tax on your accomodation.
+
+-->

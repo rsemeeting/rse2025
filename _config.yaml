@@ -1,23 +1,23 @@
 # Site settings
-title: RSE'24
-description: The 2024 Robotics Software Engineering (RSE24) meeting will be held in the University of Bremen, Germany from September 2nd to September 5th.
+title: RSE'25
+description: The 2025 Robotics Software Engineering (RSE25) meeting will be held in the University of Southern Denmark, Denmark from September 8th to September 11th 2025.
 
 url: http://rsemeeting.github.io/
-baseurl: '/rse2024/'
+baseurl: '/rse2025/'
 
 conference_title: "Robotics Software Engineering"
 conference_title_short: "RSE"
-year: "2024"
-venue: University of Bremen, Germany
+year: "2025"
+venue: University of Southern Denmark, Denmark
 copyright: Conference Organizers
 dates:
-  meeting: September 2nd-5th
+  meeting: September 8th - 11th 2025
   application:
-    deadline: June 1st
-    extension: June 22nd
-  notification: July 10th
-  registration:
-    deadline: August 30th
+    deadline: March 31st 2025
+    # extension: June 22nd
+  # notification: July 10th
+  # registration:
+  # deadline: August 30th
     # extension: 
 
 # Color settings
@@ -28,22 +28,19 @@ color:
   accent: '#d50c2f'
 
 # conference data
-background-image: /assets/Glashalle_und_Fallturm.jpg
-copyright-image: |
-  © Universität Bremen <br>
-  Glass Hall and Drop Tower
-directions-link: https://www.uni-bremen.de/en/university/campus/getting-here
-map-embed: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4790.394259466907!2d8.849937576572112!3d53.106652772220656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b1263299f7f1bd%3A0xcbac5c0abd21aa1f!2sMZH%2C%2028359%20Bremen!5e0!3m2!1sde!2sde!4v1720626450757!5m2!1sde!2sde
+background-image: /assets/SDUFacade1.jpg
+directions-link: https://www.sdu.dk/en/om-sdu/sdu-campusser/odense
+map-embed: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4622.110226188615!2d10.429211171358444!3d55.368255940538376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464d204fe2633dd5%3A0xa9604398da5c3e8a!2sUniversity%20of%20Southern%20Denmark!5e1!3m2!1sen!2sdk!4v1740484903562!5m2!1sen!2sdk
 organizer-email : rsemeeting@gmail.com
-application-page : https://forms.gle/riS111Z48CrhDCLW9
-registration-page: https://px.convent-registration.de/cgi-bin/rf?company=28207&event=1202&language=1&entry=9&onsite_mode=0
+application-page : https://forms.office.com/e/YT6MWPUxgr
+# registration-page: https://px.convent-registration.de/cgi-bin/rf?company=28207&event=1202&language=1&entry=9&onsite_mode=0
 
 collections:
   # - invited_speakers
   - organizers
   - sessions
   # - papers
-  - advisors
+  # - advisors
 
 # Build settings
 markdown: kramdown

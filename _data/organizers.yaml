@@ -1,15 +1,20 @@
-- name: Nico Hochgeschwender
+- name: Miguel Campusano
   title:  Title
-  image: assets/nico.jpg
+  image: assets/Miguel.jpg
   link: 
-  affiliation: University of Bremen
+  affiliation: University of Southern Denmark, Denmark
+- name: Ulrik Pagh Schultz Lundquist
+  title:  Title
+  image: assets/Ulrik.jpg
+  link: 
+  affiliation: University of Southern Denmark, Denmark
 - name: Luciana Rebelo
   title:  Title
   image: assets/luciana.png
   link: https://www.gssi.it/people/post-doc/post-doc-computer-science/item/17315-rebelo-luciana
-  affiliation: Gran Sasso Science Institute
-- name: Argentina Ortega
+  affiliation: Gran Sasso Science Institute, Italy
+- name: Thorsten Berger
   title:  Title
-  image: "assets/argentina.png"
   link: 
-  affiliation: University of Bremen
+  image: assets/thorsten.jpg
+  affiliation: Ruhr University Bochum, Germany
