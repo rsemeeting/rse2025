@@ -48,14 +48,26 @@ To be announced.
 
 ## Travel Information
 
+### Odense
+
+<img src="assets/OdenseCity.jpg" alt="Odense-City" style="width:900px;"/>
+
+[Discover the charm of Odense](https://www.visitdenmark.com/denmark/destinations/fyn/odense), Denmark’s hidden gem! Step into the enchanting city that inspired the timeless fairy tales of Hans Christian Andersen. Wander through picturesque streets, explore historic landmarks, and immerse yourself in a rich cultural scene. Whether you're strolling through lush parks, visiting world-class museums, or enjoying vibrant cafes, Odense offers a perfect blend of tradition and modernity. Come experience the warmth, creativity, and welcoming spirit of Odense – a city where stories come to life!
+
 ### Accomodation
 
-You can choose a hotel near the city centre. The meeting venue is easily reachable with the tram line 6 in ca. 20min.
+<img src="assets/HotelOdense.png" alt="hotel-map" style="width:900px;"/>
+
+You can choose a hotel near the city centre. The meeting venue is easily reachable with the [tram](https://www.odenseletbane.dk/english) in [20 min](https://maps.app.goo.gl/dhE3wqxqSU5xLUot5).
+
 Some hotels include:
 
-- [Comwell H.C. Andersen Odense, 4 stars](https://comwell.com/hoteller/comwell-hotel-hc-andersen-odense)
-- [Hotel Odeon, 4 stars](https://picassoonline.techotel.dk/da/occ/hotel-odeon/booking/)
-- [City Hotel Nattergalen, 3 stars](www.cityhotelnattergalen.dk)
+- [Comwell H.C. Andersen Odense](https://comwell.com/hoteller/comwell-hotel-hc-andersen-odense)
+- [Hotel Odeon](https://picassoonline.techotel.dk/da/occ/hotel-odeon/booking/)
+- [City Hotel Nattergalen](www.cityhotelnattergalen.dk)
+- [Milling Hotel Ansgar](https://millinghotels.dk/hoteller/milling-hotel-ansgar/)
+- [Milling Hotel Plaza](https://millinghotels.dk/hoteller/milling-hotel-plaza/)
+- [Cabinn Odense](https://www.cabinn.com/hotel/cabinn-odense)
 
 ## Contact 
   
