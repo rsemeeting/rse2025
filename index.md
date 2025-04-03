@@ -72,3 +72,7 @@ Some hotels include:
 ## Contact 
   
 {% include organizers.html %}
+
+## Sponsor
+
+<img src="assets/feralogo.png" alt="Fera"/>
