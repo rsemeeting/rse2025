@@ -6,8 +6,8 @@ venue:
     5230 Odense
     Denmark
   directions-link: https://www.sdu.dk/en/om-sdu/sdu-campusser/odense
-applications: true
-registration: true
+applications: false
+registration: false
 ---
 
 ## About
@@ -29,7 +29,7 @@ RSE'25 does not require any paper submission, however, an abstract about the res
 
 ### Registration
 
-We will notify the selected participants shortly after the deadline. A reasonable registration fee (ca. €200/participant) will be required to confirm your participation. The registration fee includes lunch, coffee and snacks during the coffee breaks, the social activity, and the RSE dinner.
+We will notify the selected participants shortly after the deadline. A reasonable registration fee (ca. €200/participant) will be required to confirm your participation. The registration fee includes lunch, coffee and snacks during the coffee breaks, and the RSE dinner.
 
 
 <div class="divider"></div>
@@ -68,6 +68,70 @@ Some hotels include:
 - [Milling Hotel Ansgar](https://millinghotels.dk/hoteller/milling-hotel-ansgar/)
 - [Milling Hotel Plaza](https://millinghotels.dk/hoteller/milling-hotel-plaza/)
 - [Cabinn Odense](https://www.cabinn.com/hotel/cabinn-odense)
+
+## Privacy Policy
+
+<b>SYDDANSK UNIVERSITET</b>
+
+This Privacy Policy explains how Syddansk Universitet (the “Data Controller”) (“we” or “us”) processes your personal data.
+
+### 1. DATA CONTROLLER
+
+The legal entity responsible for processing your personal information is:
+
+Syddansk Universitet Corp ID: 29283958
+
+Campusvej 55
+
+5230 Odense
+
+Denmark
+
+### 2. DESCRIPTION OF THE PROCESSING
+
+In connection with RSE 2025, SDU wants to collect information about you. SDU is Data Controller and will ensure that the data is processed in accordance with GDPR.
+
+In connection hereto, SDU is obligated to inform you about the processing of your personal data.
+
+The following personal data is processed: First name, surname, address, company/institution, position, VAT number, food preferences, IP-addresses, payment information, photos and videos.
+
+<b>Purposes of the Processing</b>
+
+We process your personal data to register your participation in RSE 2025, as well as sending you relevant information on important topics, such as changes in program. Furthermore, we process the provided data in order to validate whether you are eligible for any participant specific ticket discounts.
+
+<b>Lawfulness of Processing</b>
+
+The information is to be processed in compliance with the General Data Protection Regulation Art. 6(1)(b) and (e).
+
+<b>This is How we Use Personal Data</b>
+
+SDU is responsible for processing your personal data and will keep your information confidential under existing laws. Your information will only be used for the purpose described above and will not be accessible to unauthorized persons.
+
+SDU will delete the information when it is no longer relevant to keep it. Your information will be deleted at SDU no later than March 11th 2026. <b>Your rights</b>
+
+You have the right to request insight, rectification or deletion of your personal data
+
+You have the right to oppose the processing of your personal data and have the processing of personal data limited
+
+You have an unconditional right to oppose your personal data is used for marketing If the processing of your personal data is based on your approval, you have the right to withdraw that approval at any time. Your withdraw has no influence on the legal basis for processing done prior to your withdraw.
+
+You have the right to receive the personal data you have given in a structured and normally used and machine-readable format (data portability)
+
+<b>Publication</b>
+
+Photos and videos will be published, where you may be able to be identified.
+
+<b>Disclosure</b>
+
+Your data can be disclosed to third parties, including but not limited to RSE organizers, participants, sponsors, exhibitors, restaurants, transportation companies.
+
+<b>Further Information</b>
+
+If you have any questions, you can contact mica@mmmi.sdu.dk at any time.
+
+If you have any question about data protection and your rights, please contact our DPO, Simon Kamber on email: dpo@sdu.dk.
+
+If you want to complain about the processing of personal data, you may contact the Danish Data Protection Agency via www.datatilsynet.dk.
 
 ## Contact 
   
