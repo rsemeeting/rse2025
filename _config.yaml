@@ -15,9 +15,9 @@ dates:
   application:
     deadline: March 31st 2025
     extension: May 4th 2025
-  # notification: July 10th
+  notification: May 20th
   # registration:
-  # deadline: August 30th
+    # deadline: August 30th
     # extension: 
 
 # Color settings
