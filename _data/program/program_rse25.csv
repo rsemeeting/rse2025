@@ -1,0 +1,41 @@
+﻿ID,speaker,affiliation,position,bio,title,abstract,topic,session,day,start_time,duration,end_time
+,,,,,,,Check in,Tu.Ch,Tuesday 2nd,08:30,,09:00
+,,,,,,,Welcome/Keynote,Tu.K,Tuesday 2nd,09:00,,10:15
+,,,,,,,Coffee Break,Tu.CB1,Tuesday 2nd,10:15,,10:30
+,,,,,,,Sessions & Discussions,Tu1,Tuesday 2nd,10:30,,11:30
+,,,,,,,Lunch,Tu.Lu,Tuesday 2nd,11:30,,12:15
+,,,,,,,To I40Lab,Tu.T1,Tuesday 2nd,12:15,,12:30
+,,,,,,,I40Lab,Tu.I40,Tuesday 2nd,12:30,,13:45
+,,,,,,,End / back to room,Tu.E1,Tuesday 2nd,13:45,,14:00
+,,,,,,,Sessions & Discussions,Tu2,Tuesday 2nd,14:00,,15:00
+,,,,,,,Coffee Break,Tu.CB2,Tuesday 2nd,15:20,,15:40
+,,,,,,,Sessions & Discussions,Tu3,Tuesday 2nd,15:40,,17:00
+,,,,,,,Round Table Discussions,Tu.RT,Tuesday 2nd,17:00,,17:30
+,,,,,,,End,Tu.E2,Tuesday 2nd,17:30,,17:30
+,,,,,,,To Airport / Drone,We.T1,Wednesday 3rd,08:30,,09:00
+,,,,,,,Welcome / Overview,We.K1,Wednesday 3rd,09:00,,09:20
+,,,,,,,Presentation SDU UAS,We.P1,Wednesday 3rd,09:20,,09:50
+,,,,,,,Tour,We.T2,Wednesday 3rd,09:50,,10:10
+,,,,,,,Coffee Break,We.CB1,Wednesday 3rd,10:10,,10:40
+,,,,,,,RSE discussion/session,We.S1,Wednesday 3rd,10:40,,11:50
+,,,,,,,Lunch,We.Lu,Wednesday 3rd,11:50,,12:20
+,,,,,,,To UR/MIR,We.T3,Wednesday 3rd,12:20,,13:00
+,,,,,,,Executive Welcome,We.W1,Wednesday 3rd,13:00,,13:15
+,,,,,,,Keynote 1: Academia vs. industry insights,We.K2,Wednesday 3rd,13:15,,14:00
+,,,,,,,Keynote 2: Odense Robotics,We.K3,Wednesday 3rd,14:00,,14:45
+,,,,,,,Coffee break & meet the experts,We.CB2,Wednesday 3rd,14:45,,15:15
+,,,,,,,Showroom and Quality gate tour,We.T4,Wednesday 3rd,15:15,,16:00
+,,,,,,,Networking,We.N,Wednesday 3rd,16:00,,16:30
+,,,,,,,End,We.E,Wednesday 3rd,16:30,,16:30
+,,,,,,,Dinner,We.Di,Wednesday 3rd,18:00,, 
+,,,,,,,Sessions & Discussions,Th1,Thursday 4th,09:00,,10:20
+,,,,,,,Coffee Break,Th.CB1,Thursday 4th,10:20,,10:35
+,,,,,,,Sessions & Discussions,Th2,Thursday 4th,10:35,,11:55
+,,,,,,,Lunch,Th.Lu,Thursday 4th,11:55,,12:30
+,,,,,,,Sessions & Discussions,Th3,Thursday 4th,12:30,,13:50
+,,,,,,,Coffee Break,Th.CB2,Thursday 4th,13:50,,14:10
+,,,,,,,Sessions & Discussions,Th4,Thursday 4th,14:10,,15:30
+,,,,,,,Coffee Break,Th.CB3,Thursday 4th,15:30,,15:40
+,,,,,,,Sessions & Discussions,Th5,Thursday 4th,15:40,,17:00
+,,,,,,,Round Table Discussions,Th.RT,Thursday 4th,17:00,,17:30
+,,,,,,,End,Th.E,Thursday 4th,17:30,,17:30

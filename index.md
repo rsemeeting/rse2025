@@ -37,7 +37,7 @@ We will notify the selected participants shortly after the deadline. A reasonabl
 
 ##  Schedule
 
-To be announced.
+{% include schedule.html %}
  
 
 <div class="divider"></div>
