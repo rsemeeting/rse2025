@@ -5,10 +5,10 @@
   <h3 class="center-align">Overview</h3>
   <div class="divider"></div>
 
-  {% assign days = site.data.program.program_rse24 | group_by:"day" %}
+  {% assign days = site.data.program.program_rse25 | group_by:"day" %}
   <div class="row">
     {% for day in days %}
-    <div class="col l3">
+    <div class="col l4">
       <table class="schedule-overview">
         <caption>{{day.name}}</caption>
         {% assign day_sorted = day.items | sort:"start_time" %}
@@ -30,7 +30,7 @@
 </div>
 
 <!-- Full program -->
-{% assign days = site.data.program.program_rse24 | group_by:"day" %}
+{% assign days = site.data.program.program_rse25 | group_by:"day" %}
 <div class="section" id="schedule">
   <h3 class="center-align">Schedule</h3>
   <div class="divider"></div>
