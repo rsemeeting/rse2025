@@ -16,7 +16,7 @@ registration: false
 
 The format of RSE'25 meeting consists of short presentations from each participant with enough time for discussion. Researchers at different career stages are wellcome to present their research, provide and get feedback from peers, engage into discussions and establish new collaborations. RSE is not a publication venue. Participants can present previously published work as well as unpublished work, including early ideas and work in progress, can be a published paper, an idea, a master thesis, etc. The main point is to encourage discussions, to give and receive feedback, and to create a network for new collaborations.
 
-RSE'25 will take place at the [University of Southern Denmark](https://www.sdu.dk/en), campus Odense, located in the island of Funen in Denmark, from **September 8 until September 11, 2025**.
+RSE'25 will take place at the [University of Southern Denmark](https://www.sdu.dk/en), campus Odense, located in the island of Funen in Denmark, from **September 9 until September 11, 2025**.
 RSE'25 does not require any paper submission, however, an abstract about the research that is to be presented is required to apply. 
  
 
