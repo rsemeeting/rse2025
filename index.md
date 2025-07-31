@@ -29,8 +29,7 @@ RSE'25 does not require any paper submission, however, an abstract about the res
 
 ### Registration
 
-We will notify the selected participants shortly after the deadline. A reasonable registration fee (ca. €200/participant) will be required to confirm your participation. The registration fee includes lunch, coffee and snacks during the coffee breaks, and the RSE dinner.
-
+You can register <a href="https://www.conferencemanager.dk/rse2025">here</a>
 
 <div class="divider"></div>
 
