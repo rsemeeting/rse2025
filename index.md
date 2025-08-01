@@ -29,7 +29,7 @@ RSE'25 does not require any paper submission, however, an abstract about the res
 
 ### Registration
 
-Due to organizational reasons, there is a limit of 50 participants. We will notify the selected participants shortly after the deadline. A registration fee of 1800DKK/participant will be required to confirm your participation.The registration fee includes lunch, coffee and snacks during the coffee breaks, the social activity, and the RSE dinner.
+Due to organizational reasons, there is a limit of 50 participants. We will notify the selected participants shortly after the deadline. A registration fee of 1800DKK/participant (ca. €250/participant) will be required to confirm your participation. The registration fee includes lunch, coffee and snacks during the coffee breaks, the RSE dinner, and the visits to our partners on Wednesday.
 
 <div class="divider"></div>
 
