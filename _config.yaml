@@ -16,8 +16,8 @@ dates:
     deadline: March 31st 2025
     extension: May 4th 2025
   notification: May 20th
-  # registration:
-    # deadline: September 9th
+  registration:
+    deadline: September 9th
     # extension: 
 
 # Color settings
@@ -33,7 +33,7 @@ directions-link: https://www.sdu.dk/en/om-sdu/sdu-campusser/odense
 map-embed: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4622.110226188615!2d10.429211171358444!3d55.368255940538376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464d204fe2633dd5%3A0xa9604398da5c3e8a!2sUniversity%20of%20Southern%20Denmark!5e1!3m2!1sen!2sdk!4v1740484903562!5m2!1sen!2sdk
 organizer-email : rsemeeting@gmail.com
 application-page : https://forms.office.com/e/YT6MWPUxgr
-# registration-page: https://px.convent-registration.de/cgi-bin/rf?company=28207&event=1202&language=1&entry=9&onsite_mode=0
+registration-page: https://www.conferencemanager.dk/rse2025
 
 collections:
   # - invited_speakers

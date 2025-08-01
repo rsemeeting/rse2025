@@ -7,7 +7,7 @@ venue:
     Denmark
   directions-link: https://www.sdu.dk/en/om-sdu/sdu-campusser/odense
 applications: false
-registration: false
+registration: true
 ---
 
 ## About
